@@ -15,11 +15,10 @@ This tool can callout the tts and say it in command line.
 
 ## gradlew.ps1
 You may use this tool in command line and get Windows 10 toast(tested on my surface :)) when it is done.
-- Before you go:
-    You need to install this module first, type the following command in the powershell to install it: 
+  You need to install this module first, type the following command in the powershell to install it: 
+
+    Install-Module -Name BurntToast
   
-      Install-Module -Name BurntToast
-        
-    How to use it? You may need to put this file under the project folder. Run it in the Terminal window like the following.
-      
+  How to use it? You may need to put this file under the project folder. Run it in the Terminal window like the following.
+
     powershell .\gradlew.ps1 -tasks timers4me:installRelease
